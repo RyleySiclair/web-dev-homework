@@ -3,22 +3,34 @@ h1 {
 }
 
 .square{
-  width: 100%;
+  width: 90%;
 }
 
 #pink {
   background-color: #FF377B;
+  width:50px
+  height:75px
+  position:absolute;
 }
 
 #green {
   background-color: #7DE522;
+  width:50px
+  height:75px
+  position:absolute;
 }
 
 #yellow {
   background-color: #FBE608;
+  width:50px
+  height:75px
+  position:absolute;
 }
 
 
 #blue {
   background-color: #3AB1FC;
+  width:50px
+  height:75px
+  position:absolute;
 }
