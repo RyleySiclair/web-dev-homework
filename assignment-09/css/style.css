@@ -2,12 +2,21 @@ h1 {
   color: blue;
 }
 
+h2 {
+  color: blue;
+}
+
+h3 {
+  color: blue;
+}
+
 .square{
   width: 90%;
 }
 
 #pink {
   background-color: #FF377B;
+  opacity: 0.5
   width:50px
   height:75px
   position:absolute;
@@ -15,6 +24,7 @@ h1 {
 
 #green {
   background-color: #7DE522;
+  opacity: 0.5
   width:50px
   height:75px
   position:absolute;
@@ -22,6 +32,7 @@ h1 {
 
 #yellow {
   background-color: #FBE608;
+  opacity: 0.5
   width:50px
   height:75px
   position:absolute;
@@ -30,6 +41,7 @@ h1 {
 
 #blue {
   background-color: #3AB1FC;
+  opacity: 0.5
   width:50px
   height:75px
   position:absolute;
