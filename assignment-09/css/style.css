@@ -16,7 +16,7 @@ h3 {
 
 #pink {
   background-color: #FF377B;
-  opacity: 100;
+  opacity: 100%;
   width:50px
   height:75px
   position:absolute;
@@ -24,7 +24,7 @@ h3 {
 
 #green {
   background-color: #7DE522;
-  opacity: 100;
+  opacity: 100%;
   width:50px
   height:75px
   position:absolute;
@@ -32,7 +32,7 @@ h3 {
 
 #yellow {
   background-color: #FBE608;
-  opacity: 100;
+  opacity: 100%;
   width:50px
   height:75px
   position:absolute;
@@ -41,7 +41,7 @@ h3 {
 
 #blue {
   background-color: #3AB1FC;
-  opacity: 100;
+  opacity: 100%;
   width:50px
   height:75px
   position:absolute;
