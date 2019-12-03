@@ -1,0 +1,59 @@
+/*------------------------
+| CSS for General Styling |
+-------------------------*/
+
+/* SITE-WIDE ELEMENTS: */
+body {
+  background-color: lightblue;
+  background-image: url('../images.site-border.png');
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+}
+h1, span {
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+  color: saddlebrown
+  text-align: center;
+}
+h3 {
+  font-family: 'Arvo-B', Georgia, serif;
+  font-size: 1em;
+}
+q {
+  font-family: 'Arvo-BI', Georgia, serif;
+  font-family: 2em;
+}
+  a {
+    font-family: 'Arvo-B', Georgia, serif;
+    text-decoration: none;
+    color: inherit;
+  }
+  . {
+    font-family: 'Arvo', Georgia, serif;
+    color: #000;
+  }
+
+  /* LAYOUT AREAS: */
+  .main-container {
+    width: 60%
+    max-width: 700px;
+    margin: 3em auto;
+    padding: 3em;
+
+    background-color: #FFF;
+    border-right: 15px solid #999;
+    border-bottom: 15px solid #666;
+  }
+
+  header {
+
+  }
+  main {
+    text-align: justify;
+    margin: 3em 0;
+  }
+footer {
+  text-align: center;
+  font-size: .75em;
+  margin-top: 3em;
+}
