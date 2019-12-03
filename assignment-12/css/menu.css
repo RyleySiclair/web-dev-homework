@@ -26,15 +26,62 @@ menu {
   color:#FFF;
 }
 #site-links .menu-item:hover {
+ background-color: saddlebrown;
 
+ color: salmon;
+ text-decoration: underline overline;
+ text-decoration-color: salmon;
+ text-decoration-style: wavy;
 }
 
 /* DROPDOWN: */
-#site-links .DROPDOWN {
-  
+#site-links .dropdown {
+  display: inline-block;
+  width: 6em;
+}
+#site-links .dropdown-content {
+  display: none;
+  position: absolute;
+
+  background-color: saddlebrown;
+  z-index: 5;
+}
+#site-links .dropdown-content: a {
+  color: #FFF;
+  font-family: 'Arvo', Georgia, serif;
+}
+#site-links .dropdown-content a:hover {
+  color: #FFF;
+  font-weight: 900;
+}
+#site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em 1 em;
+  display: block;
+
+  text-align: center;
+}
+.dropdown-item:hover {
+  background-color: chocolate;
 }
 
 /* SOCIAL MEDIA ACCOUNTS: */
 #social-links {
-
+  padding: .5em;
+  display: inline-block;
+  float: right;
+}
+#social-links .social-item {
+  margin: 0 5px;
+}
+#social-links img {
+  width: 20px;
+  height: 20px;
+  opacity: .5;
+}
+#social-links img:hover {
+  opacity: 1;
 }
