@@ -28,7 +28,7 @@ body {
 }
 
 .site-info {
-  margin: 2em;
+  margin: 2em auto;
 
   text-align: center;
   font-size: 200%;
@@ -39,7 +39,7 @@ body {
   width: 150px;
   height: 150px;
 
-  margin: auto;
+  margin: 0 auto 1em;
 
   border: 5px solid #000;
   border-radius: 100%;
@@ -53,7 +53,14 @@ body {
 }
 
 .site-links {
-
+  margin: 0 1em;
+}
+.site-links a {
+  display: block;
+  margin: 1em;
+}
+.site-links a:hover {
+  margin-left: 2.5em;
 }
 
 
