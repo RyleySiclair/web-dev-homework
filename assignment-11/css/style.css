@@ -31,6 +31,9 @@ body {
   background-color: #FFF;
   width: 150px;
   height: 150px;
+
+  border: ;
+  border-radius: 100%;
 }
 
 .site-links {
