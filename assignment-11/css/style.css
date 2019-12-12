@@ -22,9 +22,16 @@ body {
   top: 0;
   left: 0;
 }
+.navigation a {
+  text-decoration: none;
+  color: #FFF;
+}
 
 .site-info {
+  margin: 2em;
 
+  text-align: center;
+  font-size: 200%;
 }
 
 .logo {
@@ -32,8 +39,17 @@ body {
   width: 150px;
   height: 150px;
 
-  border: ;
+  margin: auto;
+
+  border: 5px solid #000;
   border-radius: 100%;
+
+  line-height: 150pc;
+  color: #000;
+  text-transform: uppercase;
+}
+.logo:hover {
+  border-color: #999;
 }
 
 .site-links {
